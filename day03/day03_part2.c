@@ -105,5 +105,7 @@ int main(int argc, char ** argv){
     fclose(fp);
     if (line) free(line);
 
+    free(numbers);
+
     return 0;
 }
